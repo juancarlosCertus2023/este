@@ -1,23 +1,56 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>CONTACTANOS</title>
-        <meta charset="utf-8">
-        <link rel="icon" href="mistura.ico.jpg">
-    </head>
-    <body>
-        <header>
-            <article>
-                <h1>"GASTRONOMIAS MISTURA VARIEDAD Y SABOR AL MEJOR PRECIO"</h1>
-            </article>
-                <nav>
-                   <ul>
-                     <li><a href="Doña mistura Criolla.html">Inicio</a></li>
-                     <li><a href="CATALOGO Y CARTA.HTML">catalogo y Carta</a></li>
-                     <li><a href="CONTACTANOS.html">Contactanos</a></li>
-                     <li><a href="PROMOCIONES.html">Promociones</a></li>
-                   </ul>
-                </nav>
-        </header>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CONTACTANOS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="head">
+        <div class="logo">
+             <a href="mistura.ico.jpg">LOGO</a>
+        </div>
+          <nav calss="navbar">
+                <a href="Doña mistura Criolla.html">INICIO</a>
+                <a href="CATALOGO Y CARTA.HTML">CATALOGO Y CARTAS</a>
+                <a href="PROMOCIONES.html">PROMOCIONES</a>
+                <li><a href="CONTACTANOS.HTML">CONTACTANOS</a></li>
+          </nav>
+ </div>
+
+    <form action="https://formsubmit.co/cachuamani@gmail.com" method="POST">
+        <h2>Contacto</h2>
+        <div class="input-group">
+            <!--crear secciones o agrupar contenidos-->
+
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Nombre">
+
+            <label for="phone">Telefono</label>
+            <input type="tel" name="phone" id="phone" placeholder="Telefono">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email">
+
+            <label for="message">Mensaje</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+
+
+            <div class="form-txt">
+                <a href="#">Politica de privacidad</a>
+                <a href="#">Terminos y Condiciones</a>
+            </div>
+
+            <input class="btn" type="submit" value="Enviar">
+
+        </div>
+    </form>
+
+</body>
+
 </html>
